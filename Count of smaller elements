@@ -1,0 +1,8 @@
+class Solution:
+    def countOfElements(self, x, arr):
+        # Code Here
+          countOfElements=0
+          for i in arr:
+              if i<=x:
+                 countOfElements+=1
+          return countOfElements  
