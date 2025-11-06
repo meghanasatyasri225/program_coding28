@@ -1,0 +1,11 @@
+class Solution:
+	def countOddEven(self, arr):
+		#Code here
+		counteven=0
+		countodd=0
+		for x in arr:
+		    if x%2==0:
+		        counteven+=1
+		    else:
+		        countodd+=1
+		return(countodd,counteven)   
