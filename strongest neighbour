@@ -1,0 +1,11 @@
+class Solution:
+    def maxAdj(self, arr):
+        # code here
+        max_list=[]
+        for i in range(len(arr)-1):
+            if arr[i]>= arr[i+1]:
+                max_list.append(arr[i])
+            else:
+                max_list.append(arr[i+1])
+                
+        return max_list
