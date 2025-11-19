@@ -1,0 +1,9 @@
+class Solution:
+	def firstAlphabet(self, S):
+		# code here
+        result =" "
+        result +=S[0]        
+        for i in range(0,len(S)):
+            if S[i]== ' ':
+                result = result + S[i+1]
+        return result
